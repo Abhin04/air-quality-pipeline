@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# DVC-managed data
+data/raw/*.xlsx
+data/raw/*.csv
+
+# Processed/combined data
+data/processed/
+data/combined/
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
