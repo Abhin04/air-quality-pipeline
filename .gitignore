@@ -15,12 +15,15 @@ __pycache__/
 # Environment variables
 .env
 
-# DVC-managed data
+# DVC-managed raw data
 data/raw/*.xlsx
 data/raw/*.csv
 
-# Processed/combined data
-data/processed/
+# DVC-managed processed data
+data/processed/*.csv
+
+# Intermediate/combined data
+data/interim/*.xlsx
 data/combined/
 
 # Model artifacts
@@ -30,3 +33,10 @@ data/combined/
 # OS
 .DS_Store
 Thumbs.db
+
+data/processed/*.csv
+data/combined/
+
+# Intermediate/combined data
+data/interim/*.xlsx
+data/combined/
