@@ -30,7 +30,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest -q
+          pytest -m pytest -q
 
   lint:
     name: Lint
