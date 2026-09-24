@@ -5,7 +5,6 @@ import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH = BASE_DIR / "models" / "final_aqi_random_forest.pkl"
 
