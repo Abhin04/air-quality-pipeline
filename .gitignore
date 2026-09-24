@@ -40,3 +40,7 @@ data/combined/
 # Intermediate/combined data
 data/interim/*.xlsx
 data/combined/
+
+# MLflow local tracking data
+mlruns/
+notebooks/mlruns/
